@@ -1,0 +1,89 @@
+.booking-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.9);
+  }
+  
+  h1, h3 {
+    text-align: center;
+  }
+  
+  .time-slot-selection, .seat-selection, .payment-selection, .cost-summary {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .time-slot {
+    margin: 5px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .time-slot.selected {
+    background-color:rgb(24, 61, 107);;
+    color: #fff;
+  }
+  
+  .seat-row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  
+  .seat {
+    margin: 2px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background-color: rgb(24, 61, 107);
+    color: #fff;
+  }
+  
+  .payment-selection select {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .proceed-button {
+    display: absolute;
+    width: 50%;
+    right: 30px;
+
+    
+    padding: 15px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(24, 61, 107);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cost-summary h3 {
+    margin: 10px 0;
+  }
+  
+  .ticket-confirmation {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .ticket-confirmation h3 {
+    margin-bottom: 10px;
+  }
+  

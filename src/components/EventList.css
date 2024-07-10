@@ -1,0 +1,11 @@
+/* EventList.css */
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  /* Additional styles can be added as needed */
+  
